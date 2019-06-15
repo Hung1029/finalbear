@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^3.8.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-vue": "^2.0.0-rc.22",
+    "firebase": "^6.1.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "react-bootstrap": "^0.32.1",
+    "save": "^2.4.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6"
+  }
+}
