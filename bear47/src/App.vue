@@ -10,6 +10,7 @@
     margin: 0 auto;
     overflow-x: hidden;
     padding: 0;
+    -webkit-user-select: none
 }
 </style>
 
