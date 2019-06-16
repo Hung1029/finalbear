@@ -5,5 +5,13 @@
  
   </div>
 </template>
+<style>
+* {
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+</style>
+
 
 
