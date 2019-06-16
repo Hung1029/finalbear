@@ -19,7 +19,7 @@
             <div class="block1">
 
                 <form action="">
-                    <img class="img3" src="../img/t1.png" alt="">
+                    <img class="img3" src="../img/t3.png" alt="">
                     <div class="btn1">
                         <p class="text1">購買張數</p>
                         <div class="botton">
@@ -39,7 +39,7 @@
                         <p class="number1">(尚餘 {{count1}} 張)</p>
                     </div>
 
-                    <img class="img3" src="../img/t2.png" alt="">
+                    <img class="img3" src="../img/t4.png" alt="">
                     <div class="btn1">
                         <p class="text1">購買張數</p>
                         <div class="botton">
@@ -158,6 +158,8 @@ var i =0,j=0; var txt;
 </script>
 
 <style scoped>
+
+
 @media screen and (max-width: 768px) {}
 
 * {
@@ -241,7 +243,7 @@ var i =0,j=0; var txt;
     transform: translateX(-50%);
     margin-top: 20px;
     border:3px solid white;
-    border-radius: 6.5px;
+    border-radius: 10px;
 }
 
 #bb {
@@ -252,8 +254,7 @@ var i =0,j=0; var txt;
     transform: translateX(-50%);
     margin-top: 20px;
     border:3px solid white;
-    border-radius: 6.5px;
-    
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -299,11 +300,12 @@ var i =0,j=0; var txt;
 .btn1 {
     position: relative;
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     margin-top: 20px;
     /* border: 1px rgb(255, 255, 255) solid; */
     float: left;
     margin-left: 50%;
+    margin-bottom: 30px;
     transform: translateX(-50%);
 }
 
@@ -323,10 +325,10 @@ var i =0,j=0; var txt;
 .text1 {
     color: #fff;
     float: left;
-    position: absolute;
+    position: relative;
     width: 100px;
     font-size: 18px;
-    margin-left: calc(20vw - 100px);
+    margin-left: calc(20vw - 130px);
     margin-top: 12px;
     /* border: 1px rgb(83, 29, 29) solid; */
 }
@@ -342,13 +344,13 @@ var i =0,j=0; var txt;
 }
 
 .botton {
-    position: absolute;
+    position: relative;
     float: left;
-    width: 50%;
-    margin-top: 5px;
+    width: calc(40% + 80px);
+    /* margin-top: 5px; */
     /* border: 1px rgb(255, 255, 255) solid; */
-    margin-left: 52%;
-    transform: translateX(-50%);
+    /* margin-left: 52%; */
+    /* transform: translateX(-50%); */
 }
 
 .number1 {
@@ -358,9 +360,9 @@ var i =0,j=0; var txt;
     font-size: 14px;
     /* border: 1px rgb(83, 29, 29) solid; */
     padding: 0px;
-    width: 150px;
+    width: 130px;
     margin-top: 20px;
-    margin-left: calc(36vw + 150px);
+    /* margin-left: calc(36vw + 150px); */
 }
 
 @media screen and (max-width: 768px) {
@@ -398,7 +400,7 @@ var i =0,j=0; var txt;
     }
     .number1 {
         /* border: 1px rgb(228, 211, 211) solid; */
-        margin-left: 40%;
+        margin-left: 47%;
     }
 }
 

@@ -206,7 +206,7 @@ height:600px;
 
 .footer {
     width: 100%;
-    height: 20vh;
+    height: 21vh;
     margin-top: 30px;
 }
 
