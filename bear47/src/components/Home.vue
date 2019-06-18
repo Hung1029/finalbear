@@ -153,7 +153,7 @@ height:600px;
 
 .intro {
     width: 100%;
-    height: 100vh;
+    padding-bottom: 200px;
     /* border-bottom: 1px solid rgba(92, 90, 90, 0.89); */
     padding: auto 50px;
 }
@@ -161,7 +161,7 @@ height:600px;
 @media screen and (max-width: 768px) {
     .intro {
         width: 100%;
-        height: 120vw;
+        padding-bottom: 150px;
         /* border-bottom: 1px solid rgba(92, 90, 90, 0.89); */
         padding: auto 50px;
     }
@@ -170,7 +170,7 @@ height:600px;
 @media screen and (max-width: 450px) {
     .intro {
         width: 100%;
-        height: 80vh;
+        padding-bottom: 150px;
         /* border-bottom: 1px solid rgba(92, 90, 90, 0.89); */
         padding: auto 50px;
     }
@@ -178,28 +178,30 @@ height:600px;
 
 .infor {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom:200px;
     /* border-bottom: 1px solid rgba(92, 90, 90, 0.89); */
 }
 
 @media screen and (max-width: 768px) {
     .infor {
         width: 100%;
-        height: 120vw;
+        padding-bottom: 150px;
         /* border-bottom: 1px solid rgba(92, 90, 90, 0.89); */
     }
 }
 
 .tintro {
     width: 100%;
-    height: 75vh;
+    /* height: 75vh; */
+    padding-bottom: 200px;
     border-bottom: 1px solid rgba(92, 90, 90, 0.89);
 }
 
 @media screen and (max-width: 768px) {
     .tintro {
         width: 100%;
-        height: 70vw;
+        padding-bottom: 150px;
         border-bottom: 1px solid rgba(92, 90, 90, 0.89);
     }
 }
